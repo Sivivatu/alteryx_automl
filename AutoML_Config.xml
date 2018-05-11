@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<AlteryxJavaScriptPlugin>
+  <EngineSettings EngineDll="Python" EngineDllEntryPoint="Python - Single Input OutputEngine.py" SDKVersion="10.1" />
+  <GuiSettings Html="AutoML_Gui.html" Icon="AutoML_icon.png" Help="https://help.alteryx.com/developer/current/index.htm#Python/Examples.htm" SDKVersion="10.1">
+    <InputConnections>
+      <Connection Name="Input" AllowMultiple="False" Optional="False" Type="Connection" Label=""/>
+    </InputConnections>
+    <OutputConnections>
+      <Connection Name="Output" AllowMultiple="False" Optional="False" Type="Connection" Label=""/>
+    </OutputConnections>
+  </GuiSettings>
+  <Properties>
+    <MetaInfo>
+      <Name>AutoML</Name>
+      <Description>A python base AutoML process using the TPOT package.</Description>
+      <ToolVersion>0.1</ToolVersion>
+      <CategoryName>Laboratory</CategoryName>
+      <SearchTags>python, sdk, AutoML, Predictive, python sdk</SearchTags>
+      <Author>Paul Houghton</Author>
+      <Company>The Information Lab</Company>
+      <Copyright>2017</Copyright>
+    </MetaInfo>
+  </Properties>
+</AlteryxJavaScriptPlugin>

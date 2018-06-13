@@ -14,13 +14,15 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+[Ll]ib/
 lib64/
 parts/
 sdist/
 var/
 wheels/
 *.egg-info/
+Scripts/
+Include/
 .installed.cfg
 *.egg
 MANIFEST
